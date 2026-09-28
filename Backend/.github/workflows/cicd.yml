@@ -1,6 +1,10 @@
 name: Simple CI
 
-on: [push]
+on:
+  push:
+    branches:
+      -main
+      -production
 
 jobs:
   echo:
