@@ -1,0 +1,11 @@
+name: Simple CI
+
+on: [push]
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print message
+        run: echo "Hello! GitHub Actions is working!"
