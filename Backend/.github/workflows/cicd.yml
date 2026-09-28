@@ -3,8 +3,8 @@ name: Simple CI
 on:
   push:
     branches:
-      -main
-      -production
+      - main
+      - production
 
 jobs:
   echo:
